@@ -1,0 +1,12 @@
+<configuration>
+
+    <!--对于使用者来说配置数据源-->
+    <property name="driverClass" value="com.mysql.jdbc.Driver"/>
+    <property name="jdbcUrl" value="jdbc:mysql://127.0.0.1:3306/mybatis?characterEncoding=utf-8"/>
+    <property name="user" value="root"/>
+    <property name="password" value="Zmq745210"/>
+
+
+
+
+</configuration>

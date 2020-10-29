@@ -1,0 +1,13 @@
+<mapper namespace="User">
+
+
+    <select id="selectOne" paramterType="com.herman.persistence.test.model.UserInfo"
+            resultType="com.herman.persistence.test.model.UserInfo">
+        select * from user_info where id = #{id} and username =#{username}
+    </select>
+
+    <select id="selectList" resultType="com.herman.persistence.test.model.UserInfo">
+        select * from user_info
+    </select>
+
+</mapper>
